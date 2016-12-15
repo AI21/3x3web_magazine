@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+.titleList {
+    height: auto;
+}
+
+/*---------------------------------
+ イベント告知
+--------------------------------*/
+/*LIGA TOKAI 3on3*/
+.liga3on3 {
+    }
+    .liga3on3 h3 {
+        font-size: 2.4em;
+        font-size: 2.4rem;
+    }
+    .liga3on3 ol {
+        margin: 0 auto;
+        margin-top: 11px;
+        width: 400px;
+        text-align: left;
+        }
+        .liga3on3 li {
+            position: relative;
+            }
+            .liga3on3 li time {
+                display: inline-block;
+                margin-right: 1em;
+                min-width: 60px;
+            }
+            .liga3on3 li .place {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                font-size: 1.2em;
+                font-size: 1.2rem;
+            }
+            .liga3on3 p.infoTitleButton {
+    			height: 36px;
+    			background: url(../image/title_entry-3on3_bottom.svg) no-repeat;
+    			/*color: rgba(255, 255, 255, 0);*/
+            }

@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+/*---------------------------------
+tablet css layout
+--------------------------------*/
+@media screen and (max-width: 768px){
+	#wrapper {
+		max-width: 768px;
+	}
+	footer {
+		max-width: 768px;
+	}
+}

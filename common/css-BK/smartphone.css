@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+/*---------------------------------
+SmartPhone css layout
+--------------------------------*/
+@media screen and (max-width: 480px){
+	#wrapper {
+	}
+	header {
+	}
+	#container {
+	}
+	footer {
+	}
+}
+
+/*---------------------------------
+add css layout end
+--------------------------------*/

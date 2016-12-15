@@ -1,0 +1,385 @@
+@charset "utf-8";
+
+/*---------------------------------
+ Style for 設置店舗
+--------------------------------*/
+#setting ul {
+	/*display: table;*/
+}
+#setting ul li {
+	/*width: 450px;
+	height: 51px;
+	padding: 4px 10px;
+	border-bottom: 1px solid #999;
+	background: url(../image/arrow_24.png) no-repeat;
+	background-position: right center;*/
+}
+.orange h1 {
+	/*color: #f15a24;*/
+}
+.green h1 {
+	/*color: #006837;*/
+}
+
+
+/*---------------------------------
+ 店舗一覧
+--------------------------------*/
+.shoplist {
+	margin-bottom: 44px;
+	}
+	.shoplist li {
+		display: block;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: auto;
+		min-height: 65px;
+		border-bottom: 2px solid #999;
+		}
+		.shoplist li a {
+			display: block;
+		}
+		.shoplist li img.shopImg {
+			display: inline-block;
+			margin: 8px 4px 8px 10px;
+			width: 64px;
+			vertical-align: top;
+		}
+		.shoplist li .shopinfo {
+			position: relative;
+			display: inline-block;
+			margin: 4px 0;
+			padding: 0;
+			width: 365px;
+			height: auto;
+			min-height: 50px;
+			vertical-align: middle;
+			}
+			.shoplist li .shopinfo h2 {
+				height: auto;
+				font-size: 1.6em;
+				font-size: 1.6rem;
+				}
+			.shoplist li .shopinfo p.yomi {
+				height: 1.2em;
+				font-size: 1.0em;
+				font-size: 1.0rem;
+			}
+			.shoplist li .shopinfo address {
+				height: 1em;
+				font-size: 1.4em;
+				font-size: 1.4rem;
+				font-weight: bold;
+				color: #2e3192;
+			}
+			.shoplist li .shopinfo .other {
+				position: absolute;
+				right: 0;
+				top: 35%;
+			}
+			.shoplist li.sports {
+				background: url(../image/arrow_24gd.png) 16px 0 no-repeat;
+				background-position: 454px;
+				}
+				.shoplist li.sports .shopinfo h2 {
+					color: #006837;
+				}
+			.shoplist li.general {
+				background: url(../image/arrow_24.png) 16px 0 no-repeat;
+				background-position: 454px;
+				}
+				.shoplist li.general .shopinfo h2 {
+					color: #f15a24;
+				}
+
+
+#pageNav {
+	margin: 16px 0;
+	text-align: center;
+}
+
+
+/*---------------------------------
+ 店舗詳細
+--------------------------------*/
+#detail {
+	}
+	#detail p {
+		margin: 10px;
+		line-height: 1.4em;
+		/*font-size: 18px;*/
+		letter-spacing: 0.1em;
+	}
+	#detail .pictureArea {
+			padding: 12px;
+			/*background-color: #f7931e;*/
+		}
+		#detail .pictureArea ul {
+			}
+			#detail .pictureArea li {
+				display: inline-block;
+				margin-left: 10px;
+				width: 210px;
+				vertical-align: top;
+				list-style-type: none;
+			}
+			#detail .pictureArea li:nth-child(2n+1) {
+			}
+			#detail .pictureArea p {
+				margin: 0 0 10px 0;
+				/*font-size: 16px;*/
+			}
+
+
+/*---------------------------------
+ クーポンエリア
+--------------------------------*/
+#couponArea {
+	padding: 10px 0;
+	width: 100%;
+	text-align: center;
+	/*background-color: #f15a24;*/
+	}
+	#couponArea a {
+		display: inline-block;
+		width: 320px;
+		height: 120px;
+		background: url(../image/coupon.svg) no-repeat;
+		background-position: center;
+		}
+		#couponArea a ul {
+			position: relative;
+			top: 76px;
+			}
+			#couponArea a ul li {
+				/*font-size: 10px;*/
+				line-height: 1.3em;
+			}
+	#couponArea p {
+		margin-top: 10px;
+	}
+
+
+/*---------------------------------
+ ジャンルエリア
+--------------------------------*/
+#genreArea {
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: #e6e6e6;
+	}
+	#genreArea ul {
+		display: table;
+		}
+		#genreArea li {
+			display: inline-block;
+			width: auto;
+			height: 20px;
+			padding: 2px 12px;
+			vertical-align: bottom;
+			background-color: #f7931e;
+			color: #fff;
+			/*font-size: 14px;*/
+			font-weight: bold;
+			border-radius: 50px;        /* CSS3草案 */
+		    -webkit-border-radius: 50px;    /* Safari,Google Chrome用 */
+		    -moz-border-radius: 50px;   /* Firefox用 */
+		}
+		#genreArea li:nth-child(n+2) {
+			margin-left: 10px;
+		}
+
+/*---------------------------------
+ SHOP DATAエリア
+--------------------------------*/
+#shopdataArea {
+	width: 100%;
+	text-align: center;
+	}
+	#shopdataArea img {
+		margin: 10px;
+	}
+	#shopdataArea a {
+		color: #1b1464;
+	}
+	#shopdataArea a:hover {
+		font-style: italic;
+		text-decoration: underline;
+	}
+	#shopdataArea section.labels {
+		}
+		#shopdataArea section.labels h1 {
+			margin: 20px 0;
+			widht: 100%;
+			height: 24px;
+		}
+		#shopdataArea #accessArea h1 {
+			background: url(../image/title_access.png) center no-repeat;
+			color: rgba(255, 255, 255, 0);
+		}
+		#shopdataArea section#shopdata h1 {
+			background: url(../image/title_shopdata.svg) center no-repeat;
+			color: rgba(255, 255, 255, 0);
+		}
+	/* アクセスMAP */
+	#accessArea {
+		}
+		#accessArea ul {
+			display: table;
+			margin: 0 auto;
+			}
+			#accessArea li {
+				display: table-cell;
+				margin: 0 5px;
+				padding-left: 50px;
+				width: 120px;
+				height: 44px;
+				text-align: left;
+				vertical-align: middle;
+				border-color: #ccc;
+				background-color: #ccc;
+				border-radius: 5px;        /* CSS3草案 */
+			    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
+			    -moz-border-radius: 5px;   /* Firefox用 */
+				}
+				#accessArea li.maps {
+					background: url(../image/icon/maps.png) no-repeat;
+				}
+				#accessArea li.gps {
+					background: url(../image/icon/gps.png) no-repeat;
+				}
+	#shopdataArea table {
+		margin: 0 auto;
+		width: 460px;
+		}
+		#shopdataArea table th,
+		#shopdataArea table td {
+			padding-top: 4px;
+			/*font-size: 16px;*/
+		}
+		#shopdataArea table th {
+			width: 80px;
+			white-space: nowrap;
+		}
+		#shopdataArea table td {
+			width: 380px;
+			text-align: left;
+			word-break: break-all;
+		}
+
+/*---------------------------------
+ WEB クーポン
+--------------------------------*/
+#pageHeader hgroup.webCoupon {
+	padding-top: 44px;
+	height: 44px;
+	background: url(../image/header_web_coupon.png) no-repeat;
+	background-color: #fff;
+	}
+	#pageHeader hgroup.webCoupon h1 {
+		margin: 0;
+		padding-left: 0;
+		padding-right: 0;
+		width: 480px;
+		text-align: center;
+	}
+#couponArea {
+	margin-top: -10px;
+	}
+	#couponArea section.detail {
+			margin: 0 10px;
+			padding: 10px;
+			width: 436px;
+			border-radius: 5px;        /* CSS3草案 */
+		    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
+		    -moz-border-radius: 5px;   /* Firefox用 */
+			border: 2px solid;
+		}
+		#couponArea section.detail img {
+			width: 380px;
+		}
+		#couponArea section.detail .gaiyou {
+			text-align: left;
+		}
+		#couponArea section.cp2,
+		#couponArea section.cp3 {
+			margin-top: 30px;
+		}
+		#couponArea section.cp1,
+		#couponArea section.cp1 .alert {
+			border-color: #f15a24;
+		}
+		#couponArea section.cp2,
+		#couponArea section.cp2 .alert {
+			border-color: #006837;
+		}
+		#couponArea section.cp3,
+		#couponArea section.cp3 .alert {
+			border-color: #1b1464;
+		}
+		#couponArea section.detail h1 {
+			margin-bottom: 10px;
+			padding: 6px 0 4px 0;
+			/*font-size: 16px;*/
+		}
+		#couponArea section.cp1 h1 {
+			background-color: #f7931e;
+		}
+		#couponArea section.cp2 h1 {
+			background-color: #7ac943;
+		}
+		#couponArea section.cp3 h1 {
+			background-color: #3fa9f5;
+		}
+		#couponArea section.detail h2 {
+			/*font-size: 16px;*/
+			font-weight: bold;
+			color: #006837;
+		}
+		#couponArea section.detail h3 {
+			clear: both;
+			color: #006837;
+		}
+		#couponArea section.detail li span {
+			display: inline-block;
+			width: 70px;
+		}
+		#couponArea section.detail ul.riyou {
+			}
+			#couponArea section.detail ul.riyou li {
+				padding-left: 1em;
+			}
+		#couponArea section.detail ul.used {
+				width: 100%;
+				background: url(../image/logo_s.png) right no-repeat;
+			}
+			#couponArea section.detail ul.used li {
+				padding-left: 1em;
+				height: 1.3em;
+				/*font-size: 12px;*/
+			}
+			#couponArea section.detail ul.used li span {
+				width: 60px;
+				/*font-size: 12px;*/
+			}
+		#couponArea section.detail .gaiyou .alert {
+			display: block;
+			margin: 6px 0;
+			padding: 4px 10px;
+			border-radius: 2px;        /* CSS3草案 */
+		    -webkit-border-radius: 2px;    /* Safari,Google Chrome用 */
+		    -moz-border-radius: 2px;   /* Firefox用 */
+			border-width: 2px;
+			border-style: solid;
+		}
+		#couponArea section.detail .gaiyou time {
+			font-weight: bold;
+			color: #c1272d;
+		}
+
+
+
+
+
+

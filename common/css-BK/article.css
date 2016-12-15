@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+/*---------------------------------
+ Style for 設置店舗
+--------------------------------*/
+#article ul {
+	/*display: table;*/
+}
+#article ul li {}
+article#column {
+	width: 460px;
+	}
+	article#column h1 {
+		text-align: left;
+		/*font-size: 12px;*/
+	}
+	article#column section#main section {
+		margin-bottom: 10px;
+	}
+	article#column section#main section.contents-head,
+	article#column section#main section.contents-middle {
+		margin-bottom: 2.5em;
+	}
+	article#column section#main h1,
+	article#column section#main section h2,
+	article#column section#main section p
+	{
+		margin: 14px 10px;
+		width: 460px;
+		text-align: left;
+	}
+	article#column section#main h1 {
+		display: block;
+		line-height: 1.6em;
+		height: auto;
+		/*font-size: 24px;*/
+		/*color: #f15a24;*/
+	}
+	article#column section#main section h2 {
+		/*font-size: 24px;*/
+		}
+		article#column section.column-orange h1,
+		article#column section.column-orange h2 {
+			color: #f15a24;
+		}
+		article#column section.column-red h1,
+		article#column section.column-red h2 {
+			color: #c1272d;
+		}
+		article#column section.column-green h1,
+		article#column section.column-green h2 {
+			color: #006837;
+		}
+		article#column section.column-blue h1,
+		article#column section.column-blue h2 {
+			color: #1b1464;
+		}
+	article#column section#main section p {
+		line-height: 1.6em;
+		/*font-size: 14px;*/
+		letter-spacing: 0.12em;
+	}
+	article#column section#main aside {
+		padding-left: 1em;
+		/*font-size: 90%;*/
+	}
+
+aside.coverage {
+	margin-bottom:  44px;
+	padding: 16px 10px 0 10px;
+	border-top: 2px solid #4d4d4d;
+	}
+	aside.coverage dl {
+		display: table;
+		height: auto;
+		}
+		aside.coverage dt,
+		aside.coverage dd {
+			display: table-cell;
+			height: 1.4;
+		}
+		aside.coverage dt {
+			width: 70px;
+		}
+		aside.coverage dd {
+		}
+
+.talkative {
+	}
+	.talkative p {
+	}
+	.talkative img.talk-image {
+		margin: 44px 0 22px 0;
+	}
+	.talkative img.talk-image-first {
+		margin: 22px 0;
+	}
+	.talkative .sb-speech-bubble {
+		line-height: 1.6;
+		/*font-size: 21px;*/
+	}
+	.talkative p.opening {
+		width: 460px;
+		padding: 0 10px;
+	}
+	.talkative .talking-other {
+		width: 440px;
+		padding: 0 20px;
+	}
+
+	/*---------------------------------
+	 キャラクター紹介
+	--------------------------------*/
+	.talkative #caractorIntroductionArea {
+		margin-top: 44px;
+		}
+		.talkative #caractorIntroductionArea #caractorIntroduction h1  {
+			background: url(../image/title_talking_caractor.svg) center no-repeat;
+			color: rgba(255, 255, 255, 0);
+		}
+		.talkative #caractorIntroductionArea #caractorIntroduction table {
+			margin: 0 auto;
+			width: 440px;
+		}
+		.talkative #caractorIntroductionArea #caractorIntroduction table th {
+			width: 80px;
+			text-align: center;
+		}
+		.talkative #caractorIntroductionArea #caractorIntroduction table td {
+		vertical-align: middle;
+		}
+		.talkative #caractorIntroductionArea #caractorIntroduction img {
+			width: 60px;
+			height: 60px;
+		}
+	}
+

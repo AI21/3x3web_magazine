@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+/*---------------------------------
+ Style for 選手特集
+--------------------------------*/
+.players {
+	}
+	.players article.blog {
+		}
+		.players article.blog h3 {
+			padding: 12px 20px;
+			/*font-size: 16px;*/
+		}
+		#plofileArea img.face {
+			position: absolute;
+			right: 10px;
+			margin-top: 16px;
+			border-radius: 50%;
+		}
+		#plofileArea div#playerPicture {
+			margin-bottom: 44px;
+			height: 120px;
+			color: rgba(255, 255, 255, 0);
+		}
+		#plofileArea #plofile h2 {
+			background: url(../image/title_player_profile.svg) center no-repeat;
+			color: rgba(255, 255, 255, 0);
+		}
+		#plofileArea #plofile h3 {
+			/*font-size: 22px;*/
+			margin-top: 20px;
+			font-weight: bold;
+		}
+		#plofileArea #plofile h4 {
+			margin-top: 10px;
+		}
+		#plofileArea #plofile p {
+			margin: 0;
+			padding: 0;
+			/*font-size: 14px;*/
+		}
+		#plofileArea #plofile table {
+			margin-left: 10px;
+			width: 400px;
+			}
+			#plofileArea #plofile table th,
+			#plofileArea #plofile table td {
+				padding: 1px 0;
+				/*font-size: 18px;*/
+			}
+			#plofileArea #plofile table th {
+				width: 90px;
+			}
+			#plofileArea #plofile table td {
+				width: auto;
+			}
+		#plofileArea #plofile ul#snsArea {
+			display: table;
+			margin: 0;
+			padding: 0;
+			text-align: left;
+		list-style-image: url(../image/sns/facebook.svg);
+			}
+			#plofileArea #plofile ul#snsArea li {
+				display: table-cell;
+				margin-left: 10px;
+				padding: 0;
+				height: 44px;
+				text-indent: 60px;
+				vertical-align: middle;
+			}
+			#plofileArea #plofile ul#snsArea li a {
+				display: block;
+			}
+			#plofileArea #plofile ul#snsArea li.fb {
+				/*background-image: url(../image/sns/facebook.svg);*/
+				background: url(../image/sns/facebook_44.svg) 10px no-repeat;
+				/*list-style-image: url(../image/sns/facebook.svg);*/
+			}
+			#plofileArea #plofile ul#snsArea li.insta {
+				/*list-style-image: url(../image/sns/instagram.png) ;*/
+				background: url(../image/sns/instagram_44.png) 10px no-repeat;
+			}
+
+	.players .player-natsu #pageHeader h1 {
+		color: #3fa9f5;
+	}
+	.players .player-natsu #pageHeader h2 {
+		background: url(../image/title_right.png) 0px -176px no-repeat;
+		color: #fff;
+	}
+	.players .player-natsu #plofileArea {
+		}
+		.players .player-natsu #plofileArea div#playerPicture {
+			background: url(../../players/natsu/image/profile_bunner.jpg) center no-repeat;
+			}

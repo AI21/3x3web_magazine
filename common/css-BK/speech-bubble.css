@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+@import url("./speech-bubble/sb-no-br.css");
+@import url("./speech-bubble/sb-type-drop.css");
+@import url("./speech-bubble/sb-type-fb-flat.css");
+@import url("./speech-bubble/sb-type-fb.css");
+@import url("./speech-bubble/sb-type-ln-flat.css");
+@import url("./speech-bubble/sb-type-ln.css");
+@import url("./speech-bubble/sb-type-pink.css");
+@import url("./speech-bubble/sb-type-rtail.css");
+@import url("./speech-bubble/sb-type-rtail-pink.css");
+@import url("./speech-bubble/sb-type-rtail-gray.css");
+@import url("./speech-bubble/sb-type-std.css");
+@import url("./speech-bubble/sb-type-think.css");

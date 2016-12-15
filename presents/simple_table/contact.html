@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>[ZeroMail] お問い合わせフォーム</title>
+<meta http-equiv="Content-Language" content="ja" />
+<meta http-equiv="Imagetoolbar" content="no" />
+<meta name="MSSmartTagsPreventParsing" content="true" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<link href="zeromail.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="container">
+<h1>ZeroMail ContactForm</h1>
+<form action="zeromail.php" method="post" class="zeromail">
+<p><span class="require">*</span> Information required</p>
+	<fieldset>
+	<legend>Contact</legend>
+	<table>
+		<tr>
+			<th scope="row"><label for="name" class="require">*Name</label></th>
+			<td><input name="name" type="text" id="name" size="50" /></td>
+		</tr>
+		<tr>
+			<th scope="row"><label for="email" class="require">*E-Mail</label></th>
+			<td><input name="email" type="text" id="email" size="50" /></td>
+		</tr>
+		<tr>
+			<th scope="row"><label for="url">URL</label></th>
+			<td><input name="url" type="text" id="url" size="50" /></td>
+		</tr>
+		<tr>
+			<th scope="row"><label for="message" class="require">*Message</label></th>
+			<td><textarea name="message_req" id="message" cols="50" rows="10"></textarea></td>
+		</tr>
+	</table>
+	<p class="button">
+		<button id="submit" type="submit">Submit</button>
+		<button type="reset" id="myreset">Reset</button>
+	</p>
+	</fieldset>
+</form>
+<!--ZeroMailCopyright:ソースの削除禁止-->
+<p class="wtn_copyright"><a href="http://zeromail.webtecnote.com/" title="ZeroMail Home" rel="bookmark">- ZeroMail -</a></p>
+</div>
+</body>
+</html>

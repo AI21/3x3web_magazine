@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+/*---------------------------------
+ WEB PRESENT
+--------------------------------*/
+#pageHeader hgroup.webPresents {
+	padding-top: 44px;
+	height: 44px;
+	background: url(../image/header_web_present.png) no-repeat;
+	background-color: #fff;
+	}
+	#pageHeader hgroup.webPresents h1 {
+		margin: 0;
+		padding-left: 0;
+		padding-right: 0;
+		width: 480px;
+		text-align: center;
+	}
+
+input [type=text] {
+	height: 1em;
+}
+
+#entry {
+	}
+	#entry p {
+		padding: 8px 0.5em;
+	}
+	#entry {
+		margin-top: 10px;
+		}
+
+p.success {
+	margin: 50px auto;
+	text-align: center;
+}
+
+.zeromail {
+	}
+	.zeromail table th {
+		text-align: left;
+	}

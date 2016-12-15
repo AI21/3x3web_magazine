@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+/*---------------------------------
+ Style for 記事詳細
+--------------------------------*/
+.catArticle {
+	}
+	.catArticle #column {
+		}
+		.catArticle #column h2,
+		.catArticle #column h3,
+		.catArticle #column h4 {
+			color: #f15a24;
+			font-family: "ヒラギノ角ゴ Std W8","ヒラギノ角ゴ ProN","Hiragino Kaku Gothic ProN",helvetica,Arial,Verdana,"ＭＳ Ｐゴシック",sans-serif;
+		}
+		.catArticle #column h2 {
+			padding: 0.5em;
+			padding-bottom: 0;
+			letter-spacing: 0.05em;
+			font-size: 2.4em;
+			font-size: 2.4rem;
+		}
+		.catArticle #column h3 {
+			margin: 1em 1em 0 1em;
+			width: auto;
+			font-weight: bold;
+			font-size: 2.0em;
+			font-size: 2.0rem;
+		}
+		.catArticle #column p {
+			margin: 11px 1em;
+		    line-height: 1.8em;
+		    letter-spacing: 0.15em;
+		}
+		.catArticle #column aside.addition {
+			margin: 0 0 1em 1em;
+			font-size: 1.4em;
+			font-size: 1.4rem;
+			/*font-weight: bold;*/
+		}
+
+
+/*---------------------------------
+ 取材詳細
+--------------------------------*/
+aside.coverage {
+	display: block;
+	margin-top:  44px;
+	padding: 11px 1em 0 2em;
+	height: auto;
+	border-top: 2px solid #4d4d4d;
+	font-size: 1.6em;
+	font-size: 1.6rem;
+	}
+	aside.coverage dl.reporter {
+		display: table;
+		height: auto;
+		}
+		aside.coverage dl.reporter dt,
+		aside.coverage dl.reporter dd {
+			display: table-cell;
+			height: 1.4;
+		}
+		aside.coverage dl.reporter dt {
+			max-width: 7em;
+			min-width:  4.5em;
+		}
+		aside.coverage dl.reporter dd:before {
+			content: "： ";
+		}
+
+/*---------------------------------
+ キャラクター対談
+--------------------------------*/
+.talkative {
+	}
+	.talkative p {
+	}
+	.talkative img.talk-image {
+		margin: 44px 0 22px 0;
+	}
+	.talkative img.talk-image-first {
+		margin: 22px 0;
+	}
+	.talkative .sb-speech-bubble {
+		line-height: 1.6;
+		/*font-size: 21px;*/
+	}
+	.talkative p.opening {
+		width: 460px;
+		padding: 0 10px;
+	}
+	.talkative .talking-other {
+		width: 440px;
+		padding: 0 20px;
+	}
+
+	/*---------------------------------
+	 キャラクター紹介
+	--------------------------------*/
+	.talkative #caractorIntroductionArea {
+		margin: 44px auto;
+		}
+		.talkative #caractorIntroductionArea #caractorIntroduction h2  {
+			background: url(../image/title_talking_caractor.svg) center no-repeat;
+			color: rgba(255, 255, 255, 0);
+		}
+		.talkative #caractorIntroductionArea #caractorIntroduction table {
+			margin: 0 auto;
+			width: 440px;
+		}
+		.talkative #caractorIntroductionArea #caractorIntroduction table th {
+			width: 80px;
+			text-align: center;
+		}
+		.talkative #caractorIntroductionArea #caractorIntroduction table td {
+			vertical-align: middle;
+			font-size: 1.6em;
+			font-size: 1.6rem;
+		}
+		.talkative #caractorIntroductionArea #caractorIntroduction img {
+			width: 60px;
+			height: 60px;
+		}
+	}
+

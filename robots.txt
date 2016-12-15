@@ -1,0 +1,5 @@
+User-Agent:*
+Disallow: /sys_wp/
+Disallow: /php/
+
+Sitemap:http://www.3x3magazine.com/sitemap.xml

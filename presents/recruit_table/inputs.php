@@ -1,0 +1,25 @@
+<?php
+//inputのnameとその名称設定
+//'name'=>'名称'で１セット。一番最後には,をつけない。
+//ここで書いた並び順が、確認画面と送信メール本文に反映される。
+$inputs = array(
+	'name'=>'氏名',
+	'name2'=>'ふりがな',
+	'birth'=>'生年月日',
+	'sex'=>'性別',
+	'email'=>'E-Mail',
+	'tel'=>'電話番号',
+	'postcode'=>'郵便番号',
+	'address'=>'住所',
+	'businesspost'=>'現在役職の有無',
+	'schoolcareer'=>'最終学歴',
+	'license'=>'資格',
+	'history'=>'職務経歴',
+	'message'=>'自己PR',
+	'enter'=>'入社希望時期',
+	'other'=>'その他希望条件',
+	'cont'=>'連絡方法',
+	'time'=>'連絡希望時間',
+	'tmpfile'=>'添付ファイル'
+);
+?>
